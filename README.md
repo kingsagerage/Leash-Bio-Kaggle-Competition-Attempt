@@ -13,4 +13,5 @@ Datasets of this size are rare and restricted to large pharmaceutical companies.
 This competition aims to revolutionize small molecule binding prediction by harnessing ML techniques. Recent advances in ML approaches suggest it might be possible to search chemical space by inference using well-trained computational models rather than running laboratory experiments. Similar progress in other fields suggest using ML to search across vast spaces could be a generalizable approach applicable to many domains. We hope that by providing BELKA we will democratize aspects of computational drug discovery and assist the community in finding new lifesaving medicines.
 
 
-Some notes about the hashing functions used for protein data:  
+Some notes about the hashing functions used for protein molecular subgraph data (rdkit):  
+https://www.rdkit.org/docs/GettingStartedInPython.html
