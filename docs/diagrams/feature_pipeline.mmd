@@ -1,0 +1,9 @@
+flowchart LR
+    SMILES["molecule_smiles"] --> Mol["RDKit MolFromSmiles"]
+    Mol --> FP["Morgan fingerprint: radius 3, 1024 bits"]
+    Protein["protein_name: BRD4 / HSA / sEH"] --> OHE["pandas one-hot: 3 indicators"]
+    FP --> Joint["Joint 1027-feature matrix"]
+    OHE --> Joint
+    Joint --> PCA["PCA: 400 components declared"]
+    PCA --> MLP["Dense neural classifier"]
+    MLP --> Score["One sigmoid binding score per pair"]

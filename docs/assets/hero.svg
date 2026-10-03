@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="320" viewBox="0 0 1440 320" role="img" aria-labelledby="title desc">
+<title id="title">BELKA - Molecular binding prediction</title><desc id="desc">Leash Bio Kaggle 2024. Morgan fingerprints, protein identity, PCA, dense neural network. Abstract feature-matrix illustration, not measured data.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#829BA9"/></marker></defs>
+<rect x="0" y="0" width="1440" height="320" rx="22" fill="#102A43" stroke="none" stroke-width="1"/>
+<text x="48" y="54" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#8DDFCC" text-anchor="start" letter-spacing="2">LEASH BIO  /  KAGGLE 2024</text>
+<text x="48" y="128" font-family="DejaVu Sans,Arial,sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="start">BELKA</text>
+<text x="50" y="175" font-family="DejaVu Sans,Arial,sans-serif" font-size="32" font-weight="500" fill="#E8F2F7" text-anchor="start">Molecular binding prediction</text>
+<text x="50" y="216" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#BAD0DF" text-anchor="start">Morgan fingerprints + protein identity + PCA + neural classifier</text>
+<rect x="50" y="250" width="100" height="38" rx="19" fill="#1D3D55" stroke="#36586E" stroke-width="1"/>
+<text x="100.0" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="500" fill="#E6F5F5" text-anchor="middle">RDKit</text>
+<rect x="166" y="250" width="150" height="38" rx="19" fill="#1D3D55" stroke="#36586E" stroke-width="1"/>
+<text x="241.0" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="500" fill="#E6F5F5" text-anchor="middle">scikit-learn</text>
+<rect x="332" y="250" width="230" height="38" rx="19" fill="#1D3D55" stroke="#36586E" stroke-width="1"/>
+<text x="447.0" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="500" fill="#E6F5F5" text-anchor="middle">TensorFlow / Keras</text>
+<rect x="578" y="250" width="216" height="38" rx="19" fill="#1D3D55" stroke="#36586E" stroke-width="1"/>
+<text x="686.0" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="500" fill="#E6F5F5" text-anchor="middle">Research baseline</text>
+<rect x="965" y="48" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="988" y="48" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1011" y="48" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1034" y="48" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1057" y="48" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1080" y="48" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1103" y="48" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1126" y="48" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="965" y="75" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="988" y="75" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1011" y="75" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1034" y="75" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1057" y="75" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1080" y="75" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1103" y="75" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1126" y="75" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="965" y="102" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="988" y="102" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1011" y="102" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1034" y="102" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1057" y="102" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1080" y="102" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1103" y="102" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1126" y="102" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="965" y="129" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="988" y="129" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1011" y="129" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1034" y="129" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1057" y="129" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1080" y="129" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1103" y="129" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1126" y="129" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="965" y="156" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="988" y="156" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1011" y="156" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1034" y="156" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1057" y="156" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1080" y="156" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1103" y="156" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1126" y="156" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="965" y="183" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="988" y="183" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1011" y="183" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1034" y="183" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1057" y="183" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1080" y="183" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1103" y="183" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1126" y="183" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="965" y="210" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="988" y="210" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1011" y="210" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1034" y="210" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1057" y="210" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<rect x="1080" y="210" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1103" y="210" width="13" height="17" rx="3" fill="#335268" stroke="none" stroke-width="1"/>
+<rect x="1126" y="210" width="13" height="17" rx="3" fill="#69CAB5" stroke="none" stroke-width="1"/>
+<path d="M 1160 138 L 1225 138" stroke="#6E91A6" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="1244" y="48" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1269" y="48" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1294" y="48" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1244" y="75" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1269" y="75" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1294" y="75" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1244" y="102" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1269" y="102" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1294" y="102" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1244" y="129" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1269" y="129" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1294" y="129" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1244" y="156" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1269" y="156" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1294" y="156" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1244" y="183" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1269" y="183" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1294" y="183" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1244" y="210" width="14" height="17" rx="3" fill="#7360AA" stroke="none" stroke-width="1"/>
+<rect x="1269" y="210" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<rect x="1294" y="210" width="14" height="17" rx="3" fill="#AD9DE1" stroke="none" stroke-width="1"/>
+<text x="962" y="281" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#BAD0DF" text-anchor="start">1,027 features</text>
+<text x="1239" y="281" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#D9CEFF" text-anchor="start">400 PCs</text>
+</svg>

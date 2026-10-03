@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="563" viewBox="0 0 1440 563" role="img" aria-labelledby="title desc">
+<title id="title">Dense model architecture</title><desc id="desc">The declared architecture is 400 input components, hidden layers of 128, 256, 256, 256, 256, 128 ReLU units and one sigmoid output. Parameter total including biases is 314753, derived from code. Saved 200-column output conflicts with the 400-dimensional declaration.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#829BA9"/></marker></defs>
+<rect x="0" y="0" width="1440" height="563" rx="22" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="48" y="53" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#087F70" text-anchor="start" letter-spacing="2">02 / BELKA BASELINE</text>
+<text x="48" y="101" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="700" fill="#102A43" text-anchor="start">A compact, target-conditioned neural classifier</text>
+<text x="48" y="139" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">Declared architecture: 400 &gt; 128 &gt; 256 &gt; 256 &gt; 256 &gt; 256 &gt; 128 &gt; 1</text>
+<rect x="48" y="194" width="147" height="205" rx="12" fill="#F0ECFA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="121.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">PCA INPUT</text>
+<text x="121.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">400</text>
+<text x="121.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">components</text>
+<circle cx="105.5" cy="360" r="4.5" fill="#6955B7" opacity="0.85"/>
+<circle cx="121.5" cy="360" r="4.5" fill="#6955B7" opacity="0.85"/>
+<circle cx="137.5" cy="360" r="4.5" fill="#6955B7" opacity="0.85"/>
+<path d="M 197 292 L 215 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="219" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="292.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 1</text>
+<text x="292.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">128</text>
+<text x="292.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="260.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="276.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="292.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="308.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="324.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 368 292 L 386 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="390" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="463.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 2</text>
+<text x="463.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">256</text>
+<text x="463.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="431.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="447.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="463.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="479.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="495.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 539 292 L 557 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="561" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="634.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 3</text>
+<text x="634.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">256</text>
+<text x="634.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="602.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="618.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="634.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="650.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="666.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 710 292 L 728 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="732" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="805.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 4</text>
+<text x="805.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">256</text>
+<text x="805.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="773.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="789.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="805.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="821.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="837.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 881 292 L 899 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="903" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="976.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 5</text>
+<text x="976.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">256</text>
+<text x="976.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="944.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="960.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="976.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="992.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="1008.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 1052 292 L 1070 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1074" y="194" width="147" height="205" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="1147.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#536B7B" text-anchor="middle">DENSE 6</text>
+<text x="1147.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">128</text>
+<text x="1147.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">ReLU</text>
+<circle cx="1115.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="1131.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="1147.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="1163.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<circle cx="1179.5" cy="360" r="4.5" fill="#2E679A" opacity="0.85"/>
+<path d="M 1223 292 L 1241 292" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="1245" y="194" width="147" height="205" rx="12" fill="#E7F5F0" stroke="#CEDDE5" stroke-width="1"/>
+<text x="1318.5" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#087F70" text-anchor="middle">OUTPUT</text>
+<text x="1318.5" y="288" font-family="DejaVu Sans,Arial,sans-serif" font-size="43" font-weight="700" fill="#102A43" text-anchor="middle">1</text>
+<text x="1318.5" y="320" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="middle">sigmoid</text>
+<circle cx="1318.5" cy="360" r="4.5" fill="#087F70" opacity="0.85"/>
+<text x="48" y="447" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#102A43" text-anchor="start">314,753 trainable parameters</text>
+<text x="535" y="447" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="400" fill="#536B7B" text-anchor="start">Derived from layer widths and biases; not a saved-model measurement.</text>
+<rect x="48" y="473" width="1344" height="56" rx="10" fill="#FFF5E3" stroke="none" stroke-width="1"/>
+<text x="68" y="508" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#9B6417" text-anchor="start">Source consistency note: PCA and Dense declare 400 inputs; a saved X_test printout shows 200.</text>
+</svg>

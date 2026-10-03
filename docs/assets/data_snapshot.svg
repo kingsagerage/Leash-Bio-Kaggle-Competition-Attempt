@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="494" viewBox="0 0 1440 494" role="img" aria-labelledby="title desc">
+<title id="title">Documented data snapshot</title><desc id="desc">The supplied output reports 997424 negative and 2576 positive rows out of one million. The positive rate is 0.2576 percent. The PCA output reports 73.56 percent explained variance, but its component count cannot be reconciled with the mixed output. No predictive evaluation values are present.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#829BA9"/></marker></defs>
+<rect x="0" y="0" width="1440" height="494" rx="22" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="48" y="53" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#087F70" text-anchor="start" letter-spacing="2">04 / BELKA BASELINE</text>
+<text x="48" y="101" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="700" fill="#102A43" text-anchor="start">What the saved output actually reports</text>
+<text x="48" y="139" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">Data and preprocessing evidence only - not model accuracy or a leaderboard result.</text>
+<rect x="48" y="183" width="423" height="154" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="70" y="237" font-family="DejaVu Sans,Arial,sans-serif" font-size="39" font-weight="700" fill="#102A43" text-anchor="start">1,000,000</text>
+<text x="70" y="274" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600" fill="#102A43" text-anchor="start">molecule-protein rows</text>
+<text x="70" y="310" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="start">Not a count of unique molecules.</text>
+<rect x="508" y="183" width="424" height="154" rx="12" fill="#E7F5F0" stroke="#CEDDE5" stroke-width="1"/>
+<text x="530" y="237" font-family="DejaVu Sans,Arial,sans-serif" font-size="39" font-weight="700" fill="#087F70" text-anchor="start">2,576</text>
+<text x="530" y="274" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600" fill="#102A43" text-anchor="start">positive binding labels</text>
+<text x="530" y="310" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="start">997,424 labels are negative.</text>
+<rect x="969" y="183" width="423" height="154" rx="12" fill="#F0ECFA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="991" y="237" font-family="DejaVu Sans,Arial,sans-serif" font-size="39" font-weight="700" fill="#6955B7" text-anchor="start">0.2576%</text>
+<text x="991" y="274" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600" fill="#102A43" text-anchor="start">positive-class share</text>
+<text x="991" y="310" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#536B7B" text-anchor="start">Calculated from the label counts.</text>
+<rect x="48" y="365" width="1344" height="93" rx="12" fill="#FFF5E3" stroke="none" stroke-width="1"/>
+<text x="70" y="401" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#9B6417" text-anchor="start">PCA printout: 73.56% explained variance</text>
+<text x="70" y="435" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="400" fill="#9B6417" text-anchor="start">Saved-output value only; the 200-vs-400 component discrepancy prevents clean run attribution.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880" role="img" aria-labelledby="title desc">
+<title id="title">Training and evaluation flow as supplied</title><desc id="desc">One million CSV rows are encoded. PCA is fitted to all rows before an 80/20 split. The 800000-row training partition is split again by Keras into 640000 optimization rows and 160000 validation rows. 200000 rows are used for model.evaluate. The PCA-before-split order is flagged as a validation caveat.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#829BA9"/></marker></defs>
+<rect x="0" y="0" width="1440" height="880" rx="22" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="48" y="53" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#087F70" text-anchor="start" letter-spacing="2">03 / BELKA BASELINE</text>
+<text x="48" y="101" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="700" fill="#102A43" text-anchor="start">Training flow in the supplied experiment</text>
+<text x="48" y="139" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">Counts are derived for 1,000,000 retained rows; no rows removed during preprocessing.</text>
+<rect x="48" y="182" width="434" height="134" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="70" y="220" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Load CSV prefix</text>
+<text x="70" y="257" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">First 1,000,000 rows</text>
+<text x="70" y="286" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">Not a random subsample</text>
+<rect x="503" y="182" width="434" height="134" rx="12" fill="#E7F5F0" stroke="#CEDDE5" stroke-width="1"/>
+<text x="525" y="220" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Build features</text>
+<text x="525" y="257" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">1,024 bits + 3 indicators</text>
+<text x="525" y="286" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">RDKit + pandas</text>
+<rect x="958" y="182" width="434" height="134" rx="12" fill="#FFF5E3" stroke="#CEDDE5" stroke-width="1"/>
+<text x="980" y="220" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Fit PCA on all rows</text>
+<text x="980" y="257" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">400 components</text>
+<text x="980" y="286" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">Before train/test split</text>
+<path d="M 482 249 L 498 249" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 937 249 L 953 249" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 1175 316 L 1175 345 L 720 345 L 720 373" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="490" y="377" width="460" height="102" rx="12" fill="#F0ECFA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="720" y="417" font-family="DejaVu Sans,Arial,sans-serif" font-size="26" font-weight="700" fill="#102A43" text-anchor="middle">80 / 20 row-wise split</text>
+<text x="720" y="451" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="middle">test_size=0.2  |  random_state=42</text>
+<path d="M 605 479 L 605 515 L 417 515 L 417 545" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 835 479 L 835 515 L 1175 515 L 1175 545" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="549" width="738" height="156" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="70" y="587" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" fill="#102A43" text-anchor="start">800,000 rows passed to model.fit</text>
+<rect x="70" y="610" width="359" height="72" rx="10" fill="#E7F5F0" stroke="none" stroke-width="1"/>
+<text x="249.5" y="638" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#087F70" text-anchor="middle">640,000 optimization rows</text>
+<text x="249.5" y="665" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#536B7B" text-anchor="middle">64% of loaded rows</text>
+<rect x="444" y="610" width="318" height="72" rx="10" fill="#EAF3FA" stroke="none" stroke-width="1"/>
+<text x="603" y="638" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#2E679A" text-anchor="middle">160,000 validation rows</text>
+<text x="603" y="665" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#536B7B" text-anchor="middle">validation_split=0.2</text>
+<rect x="958" y="549" width="434" height="156" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="980" y="587" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" fill="#102A43" text-anchor="start">200,000 test rows</text>
+<text x="980" y="626" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">model.evaluate(X_test, y_test)</text>
+<text x="980" y="657" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#536B7B" text-anchor="start">Loss, accuracy, precision</text>
+<rect x="48" y="731" width="1344" height="57" rx="12" fill="#102A43" stroke="none" stroke-width="1"/>
+<text x="70" y="768" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="500" fill="#FFFFFF" text-anchor="start">30 epochs  |  batch size 32  |  Adam 0.001  |  binary cross-entropy</text>
+<text x="48" y="823" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#9B6417" text-anchor="start">Validation caveat: fitted PCA has already seen validation and test features. Split before fitting</text>
+<text x="48" y="852" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#9B6417" text-anchor="start">PCA for a new unbiased evaluation. This diagram preserves the original execution order.</text>
+</svg>

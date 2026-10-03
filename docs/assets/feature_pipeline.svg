@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="630" viewBox="0 0 1440 630" role="img" aria-labelledby="title desc">
+<title id="title">Feature engineering pipeline</title><desc id="desc">Molecule SMILES becomes a 1024-bit radius-3 Morgan fingerprint. Protein name becomes three one-hot indicators. Combined 1027 inputs pass together through PCA with 400 components, then a dense classifier yields one binding score.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#829BA9"/></marker></defs>
+<rect x="0" y="0" width="1440" height="630" rx="22" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="48" y="53" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#087F70" text-anchor="start" letter-spacing="2">01 / BELKA BASELINE</text>
+<text x="48" y="101" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" font-weight="700" fill="#102A43" text-anchor="start">From molecular structure to a binding score</text>
+<text x="48" y="139" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">The documented model conditions one binary prediction on both molecule and protein.</text>
+<rect x="48" y="188" width="320" height="152" rx="12" fill="#E7F5F0" stroke="#CEDDE5" stroke-width="1"/>
+<text x="70" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Molecular structure</text>
+<text x="70" y="268" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">molecule_smiles</text>
+<text x="70" y="299" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">RDKit molecule object</text>
+<rect x="410" y="188" width="340" height="152" rx="12" fill="#E7F5F0" stroke="#CEDDE5" stroke-width="1"/>
+<text x="432" y="228" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Morgan fingerprint</text>
+<text x="432" y="268" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">Radius 3  |  1,024 bits</text>
+<text x="432" y="299" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">ECFP-style binary features</text>
+<rect x="48" y="377" width="320" height="152" rx="12" fill="#EAF3FA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="70" y="417" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Protein identity</text>
+<text x="70" y="457" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">BRD4  /  HSA  /  sEH</text>
+<text x="70" y="488" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">protein_name</text>
+<rect x="410" y="377" width="340" height="152" rx="12" fill="#EAF3FA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="432" y="417" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">One-hot encoding</text>
+<text x="432" y="457" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">3 indicator columns</text>
+<text x="432" y="488" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">pandas.get_dummies</text>
+<rect x="817" y="273" width="230" height="173" rx="12" fill="#F0ECFA" stroke="#CEDDE5" stroke-width="1"/>
+<text x="839" y="313" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Joint features</text>
+<text x="839" y="353" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">1,027 columns</text>
+<text x="839" y="384" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">PCA: 400 PCs</text>
+<rect x="1112" y="273" width="280" height="173" rx="12" fill="#FFFFFF" stroke="#CEDDE5" stroke-width="1"/>
+<text x="1134" y="313" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#102A43" text-anchor="start">Dense classifier</text>
+<text x="1134" y="353" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">6 hidden layers</text>
+<text x="1134" y="384" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="400" fill="#536B7B" text-anchor="start">1 sigmoid binding score</text>
+<path d="M 368 264 L 406 264" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 368 453 L 406 453" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 750 264 L 783 264 L 783 319 L 813 319" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 750 453 L 783 453 L 783 401 L 813 401" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 1047 359 L 1108 359" stroke="#CEDDE5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<text x="48" y="577" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="400" fill="#536B7B" text-anchor="start">id and binds are excluded from X. Building-block SMILES are not independently featurized.</text>
+<text x="48" y="606" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="400" fill="#536B7B" text-anchor="start">PCA includes the protein indicators; they are not appended after dimensionality reduction.</text>
+</svg>

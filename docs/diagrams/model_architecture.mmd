@@ -1,0 +1,10 @@
+flowchart LR
+    In["400 PCA inputs"] --> D1["Dense 128, ReLU"]
+    D1 --> D2["Dense 256, ReLU"]
+    D2 --> D3["Dense 256, ReLU"]
+    D3 --> D4["Dense 256, ReLU"]
+    D4 --> D5["Dense 256, ReLU"]
+    D5 --> D6["Dense 128, ReLU"]
+    D6 --> Out["Dense 1, sigmoid"]
+%% 314753 neural parameters including biases, derived from the declared widths.
+%% A saved 200-column output conflicts with the 400-input declaration.

@@ -1,0 +1,14 @@
+flowchart TD
+    Load["First 1,000,000 CSV rows"] --> Feat["RDKit fingerprints + protein indicators"]
+    Feat --> PCA["PCA fit_transform on ALL loaded rows"]
+    PCA --> Split["Row-wise split: test_size=0.2, random_state=42"]
+    Split --> Fit["800,000 rows passed to model.fit"]
+    Split --> Test["200,000 test rows"]
+    Fit --> Train["640,000 optimization rows"]
+    Fit --> Val["160,000 validation rows"]
+    Train --> Net["30 requested epochs, batch 32, Adam 0.001, BCE"]
+    Val --> Monitor["Epoch-end validation"]
+    Net --> Eval["model.evaluate: loss, accuracy, precision"]
+    Test --> Eval
+    PCA -.-> Warning["Preprocessing leakage: this diagram preserves the supplied order"]
+%% Counts assume all one million rows survive preprocessing.
